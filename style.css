@@ -1,0 +1,277 @@
+* {
+  padding: 0;
+  margin: 5px;
+  text-decoration: none;
+  box-sizing: content-box;
+  font-family: sans-serif;
+
+}
+
+
+#logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: white;
+  overflow: hidden;
+  top: 0;
+
+
+
+}
+
+.nav a {
+  color: #394867;
+  font-family: 'Ysabeau SC', sans-serif;
+  font-weight: bold;
+}
+
+.img {
+  display: flex;
+  margin-right: auto;
+  width: 15%;
+  justify-content: space-around;
+}
+
+.links {
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav a:hover {
+  border-bottom: 2px solid #FF9398;
+}
+
+.video {
+  background-color: black;
+  position: relative;
+  text-align: center;
+  color: white;
+  width: auto;
+}
+
+#video {
+  width: 100vw;
+}
+
+.data {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.data {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  color: #F1F6F9;
+  align-items: center;
+  justify-content: space-around;
+  line-height: 3;
+}
+
+.data a {
+  color: white;
+  border: 2px solid #213555;
+  box-shadow: 0 0 15px #deeced;
+  padding: 10px;
+  font-weight: 600;
+  border-radius: 20px;
+}
+
+#myCarousel {
+  width: 50%;
+  margin: 0 25%;
+}
+
+.cara_hr {
+  width: 5%;
+  margin: auto;
+  border-bottom: 2px solid purple;
+}
+
+.cara_img {
+  text-align: center;
+  width: 100%;
+  height: 400px;
+}
+
+.item img {
+  text-align: center;
+}
+
+/*about  */
+
+
+
+
+
+/* contact us */
+.contact_us {
+  position: relative;
+  text-align: center;
+  color: white;
+
+}
+
+
+
+.heading_contact {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+
+}
+
+.heading_contact div {
+  display: flex;
+}
+
+.one,
+.two,
+.three {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 30%;
+  word-wrap: break-word;
+  margin-right: 30px;
+}
+
+.con_form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+#f_1 {
+  padding: 1.5%;
+  margin-bottom: 10px;
+}
+
+#f_2 {
+  grid-column: 1 / span 3;
+  padding: 1.5%;
+  margin-bottom: 10px;
+}
+
+,
+data_link p {
+  color: white;
+}
+
+.con_form textarea {
+  grid-column: 1/span 3;
+  padding: 1.5%;
+}
+
+.con_form button {
+  grid-column: 1 / span 3;
+  width: 20%;
+  padding: 1%;
+  margin: auto;
+  color: black;
+  border-radius: 20px;
+  background-color: yellow;
+  font-weight: 800;
+}
+
+/* location */
+.location {
+  display: flex;
+  background-color: black;
+}
+
+.map {
+  width: 50%;
+  text-align: center;
+}
+
+.content_location {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  width: 50%;
+  padding: 10px;
+}
+
+/*footer  */
+#icon_social {
+  width: 30px;
+  height: 30px;
+}
+
+.foot {
+  color: white;
+  margin-top: 0;
+  display: flex;
+  flex-direction: column;
+  border-top: 2px solid black;
+  background-image: url("images\ \(1\).jpg");
+  font-family: 'Ysabeau Office', sans-serif;
+}
+
+.social {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin: 1% 20% 0 30%;
+  width: 40%;
+}
+
+.content_foot {
+  margin: 0 10% 0 10%;
+  display: flex;
+  color: white;
+
+}
+
+.c_foot {
+  display: flex;
+  flex-direction: column;
+  margin: 1% auto;
+  line-height: 2;
+}
+
+.c_foot a {
+  color: #fff;
+}
+
+.last p {
+  display: flex;
+  margin-left: 0;
+  text-align: left;
+  line-height: 2;
+
+}
+
+.last img {
+  margin-right: 15px;
+}
+
+.hr {
+  width: 5%;
+  border-right: 2px solid white;
+}
+
+.c_foot h3 {
+  border-bottom: 2px solid red;
+  margin-bottom: 5px;
+}
+
+
